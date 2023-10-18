@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="CSS/bootstrap.rtl.min.css" />
+    <!-- icomoon icons  -->
+    <link rel="stylesheet" href="CSS/icomoon/style.css" />
+    <!-- my style -->
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>ورود</title>
+  </head>
+
+  <body class="text-bg-dark">
+    <!-- navbar  -->
+    <nav
+      class="navbar navbar-dark bg-dark sticky-top shadow-light"
+      aria-label="Dark offcanvas navbar"
+    >
+      <div class="container-fluid">
+        <!-- navbar-brand  -->
+        <a class="navbar-brand fs-4 hover-pr" href="./index.html"
+          >فروشگاه فلان</a
+        >
+        <!-- account  -->
+        <a href="./log-in.html" class="nav-link hover-pr" title="حساب کاربری"
+          ><span class="icon-user-circle fs-3"></span
+        ></a>
+        <!-- shopping basket  -->
+        <a
+          href="./shopping-basket.html"
+          class="nav-link ms-3 me-auto hover-pr"
+          title="سبد خرید"
+        >
+          <span class="icon-shopping-cart fs-3 position-relative">
+            <span
+              class="position-absolute top-0 start-0 translate-middle badge rounded-pill bg-success font06"
+            >
+              2
+            </span>
+          </span>
+        </a>
+        <!-- search in navbar  -->
+        <form class="d-none d-md-flex ms-auto me-3" role="search">
+          <input
+            class="form-control me-1"
+            type="search"
+            placeholder="جست‌وجو"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-primary" type="submit">🔎</button>
+        </form>
+        <!-- toggle btn  -->
+        <button
+          class="navbar-toggler hover-pr"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbarDark"
+          aria-controls="offcanvasNavbarDark"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- offcanvas  -->
+        <div
+          class="offcanvas offcanvas-end text-bg-dark"
+          tabindex="-1"
+          id="offcanvasNavbarDark"
+          aria-labelledby="offcanvasNavbarDarkLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarDarkLabel">
+              منوی وبسایت
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <!-- boys or girls filter in offcanvas  -->
+            <div
+              class="btn-group w-100 mb-3"
+              role="group"
+              aria-label="Basic radio toggle button group"
+            >
+              <input
+                type="radio"
+                class="btn-check"
+                name="btnradio"
+                id="boys"
+                autocomplete="off"
+              />
+              <label class="btn btn-outline-primary" for="boys">پسرونه</label>
+
+              <input
+                type="radio"
+                class="btn-check"
+                name="btnradio"
+                id="both"
+                autocomplete="off"
+                checked
+              />
+              <label class="btn btn-outline-primary" for="both">هر دو</label>
+
+              <input
+                type="radio"
+                class="btn-check"
+                name="btnradio"
+                id="girls"
+                autocomplete="off"
+              />
+              <label class="btn btn-outline-primary" for="girls">دخترونه</label>
+            </div>
+            <!-- offcanvas ul  -->
+            <ul
+              class="navbar-nav justify-content-end flex-grow-1 pe-3"
+              data-bs-theme="dark"
+            >
+              <li class="nav-item">
+                <a class="nav-link" href="./shop.html">همه‌ی لباسا</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./shop.html">تیشرت</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./shop.html">پیراهن</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./shop.html">بلوز</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./shop.html">هودی</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./shop.html">کاپشن</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  کتونی
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="./shop.html">روزمره</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./shop.html">نیم‌بوت</a>
+                  </li>
+                  <li><a class="dropdown-item" href="./shop.html">بوت</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  اکسسوری
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./shop.html">عینک</a></li>
+                  <li><a class="dropdown-item" href="./shop.html">ساعت</a></li>
+                  <li>
+                    <a class="dropdown-item" href="./shop.html">دستبند</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./shop.html">کیف پول</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./shop.html">کمر بند</a>
+                  </li>
+                  <li><a class="dropdown-item" href="./shop.html">کلاه</a></li>
+                </ul>
+              </li>
+            </ul>
+            <!-- search in offcanvas  -->
+            <form class="d-flex d-md-none mt-3" role="search">
+              <input
+                class="form-control me-1"
+                type="search"
+                placeholder="جست‌وجو"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-primary" type="submit">🔎</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar  -->
+    <!-- breadcumb  -->
+    <div class="mt-4 mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col font09">
+            <a
+              class="text-decoration-none text-white hover-pr"
+              href="./index.html"
+              >صفحه‌ی نخست</a
+            >
+            <span class="mx-1">/</span>
+            <strong>ورود</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end breadcumb -->
+    <!-- sign up info -->
+    <section>
+      <div class="container">
+        <h1 class="text-center mb-3">ورود به حساب کاربری</h1>
+        <p class="text-center">
+          حساب کاربری ندارید؟ <a href="./sign-up.html">ایجاد حساب</a>
+        </p>
+        <form class="needs-validation mt-4" novalidate="">
+          <div class="row row-cols-1 justify-content-center g-2">
+            <div class="col col-md-6">
+              <label for="num-or-email" class="form-label"
+                >شماره تماس یا ایمیل</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="num-or-email"
+                placeholder=""
+                value=""
+                required=""
+              />
+              <div class="invalid-feedback">
+                اطلاعات حساب کاربری شما یافت نشد. مجددا بررسی کنید.
+              </div>
+            </div>
+            <!-- Force next columns to break to new line -->
+            <div class="w-100"></div>
+
+            <div class="col col-md-6">
+              <label for="password" class="form-label">رمز عبور</label>
+              <input
+                type="password"
+                class="form-control"
+                id="password"
+                placeholder=""
+                value=""
+                required=""
+              />
+              <div class="invalid-feedback">
+                اطلاعات حساب کاربری شما یافت نشد. مجددا بررسی کنید.
+              </div>
+            </div>
+            <a href="" class="text-center">ورود با رمز یکبار مصرف</a>
+            <div class="text-center mt-3">
+              <a href="#" class="btn btn-success btn" style="min-width: 5rem"
+                >ورود</a
+              >
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- sign up info -->
+
+    <div style="height: 5rem; overflow: hidden">
+      <svg
+        viewBox="0 0 500 150"
+        preserveAspectRatio="none"
+        style="height: 100%; width: 100%"
+      >
+        <path
+          d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+          style="stroke: none; fill: #1b2a4e"
+        ></path>
+      </svg>
+    </div>
+    <!-- our services  -->
+    <section class="bg-sp pb-4">
+      <div class="container">
+        <!-- header of this section  -->
+        <div class="row mb-3 text-center">
+          <h2>خیالت با خرید از ما راحت باشه!</h2>
+        </div>
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-4">
+          <div class="col text-center">
+            <span class="icon-certificate mb-3 fs-1 shadow-gold"></span>
+            <p class="mb-0">دارای تمامی مجوزهای فروش آنلاین</p>
+            <a href="" class="text-white hover-pr font09">دیدن شرایط</a>
+          </div>
+          <div class="col text-center">
+            <span class="icon-undo mb-3 fs-1 shadow-gold"></span>
+            <p class="mb-0">ضمانت بازپسگیری کالاها</p>
+            <a href="" class="text-white hover-pr font09">دیدن مجوزها</a>
+          </div>
+          <div class="col text-center">
+            <span class="icon-money mb-3 fs-1 shadow-gold"></span>
+            <p>ارسال رایگان برای خرید بالای ۶٫۰۰۰٫۰۰۰ ریال</p>
+          </div>
+          <div class="col text-center">
+            <span class="icon-local_shipping mb-3 fs-1 shadow-gold"></span>
+            <p>ارسال در سریع‌ترین زمان</p>
+          </div>
+          <div class="col text-center">
+            <span class="icon-credit-card-alt mb-3 fs-2 shadow-gold"></span>
+            <p>درگاه پرداخت امن</p>
+          </div>
+          <div class="col text-center">
+            <span class="icon-loyalty mb-3 fs-1 shadow-gold"></span>
+            <p>لباسای اصل و باکیفیت</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div style="height: 5rem; overflow: hidden">
+      <svg
+        viewBox="0 0 500 150"
+        preserveAspectRatio="none"
+        style="height: 100%; width: 100%"
+      >
+        <path
+          d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z"
+          style="stroke: none; fill: #1b2a4e"
+        ></path>
+      </svg>
+    </div>
+
+    <!-- footer  -->
+    <footer>
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-md-4 text-center">
+            <h3 class="fw-bold">فروشگاه فلان</h3>
+            <p>
+              می‌تونید از طریق شبکه‌های اجتماعی زیر هم با ما در ارتباط باشید.
+            </p>
+            <div class="d-flex justify-content-around">
+              <a href="" class="footer-link" title="اینستاگرام"
+                ><span class="icon-instagram fs-2"></span
+              ></a>
+              <a href="" class="footer-link" title="تلگرام"
+                ><span class="icon-telegram fs-2"></span
+              ></a>
+              <a href="" class="footer-link" title="واتس‌اپ"
+                ><span class="icon-whatsapp fs-2"></span
+              ></a>
+              <a href="" class="footer-link" title="توییتر"
+                ><span class="icon-twitter fs-2"></span
+              ></a>
+            </div>
+            <div class="input-group mt-3">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="ایمیل شما"
+                aria-label="ایمیل شما"
+                aria-describedby="button-addon2"
+              />
+              <button
+                class="btn btn-outline-primary btn-sm"
+                type="button"
+                id="button-addon2"
+              >
+                عضویت در خبرنامه
+              </button>
+            </div>
+          </div>
+          <div class="col-md-7 offset-md-1">
+            <div class="row g-4">
+              <div class="col-md-4">
+                <h6 class="fw-bold footer-header w-75">مجوزهای ما</h6>
+                <ul class="list-unstyled d-flex flex-md-column">
+                  <li class="mt-2">
+                    <a class="footer-link" href="#">
+                      <img
+                        src="img/eNamad.jpg"
+                        class="img-fluid rounded"
+                        style="max-height: 5rem"
+                        alt="نماد اعتماد الکترونیکی"
+                        title="نماد اعتماد الکترونیکی"
+                      />
+                    </a>
+                  </li>
+                  <li class="mt-2 ms-3 ms-md-0">
+                    <a class="footer-link" href="#">
+                      <img
+                        src="img/Samandehi.png"
+                        class="img-fluid rounded"
+                        style="max-height: 5rem"
+                        alt="نماد ساماندهی"
+                        title="نماد ساماندهی"
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <h6 class="fw-bold footer-header w-75">خدمات</h6>
+                <ul class="list-unstyled">
+                  <li class="my-2">
+                    <a class="footer-link" href="#">سوالات متداول</a>
+                  </li>
+                  <li class="my-2">
+                    <a class="footer-link" href="#">شرایط بازپسگیری کالا</a>
+                  </li>
+                  <li class="my-2">
+                    <a class="footer-link" href="#">تحوه‌ی ارسال و بسته بندی</a>
+                  </li>
+                  <li class="my-2">
+                    <a class="footer-link" href="#">حریم شخصی</a>
+                  </li>
+                  <li class="my-2">
+                    <a class="footer-link" href="#">گزارش مشکل</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <h6 class="fw-bold footer-header w-75">پشتیبانی</h6>
+                <ul class="list-unstyled">
+                  <li class="my-2 d-flex flex-md-column flex-lg-row">
+                    <div class="d-flex flex-column align-items-start">
+                      <span class="icon-contact_phone fs-3"></span>
+                      <p class="font06">تماس و پیام</p>
+                    </div>
+                    <div class="d-flex flex-column">
+                      <a class="footer-link text-end" href="tel:+989383333333"
+                        >۰۹۳۸۳۳۳۳۳۳۳</a
+                      >
+                      <a class="footer-link text-end" href="tel:+989382222222"
+                        >۰۹۳۸۲۲۲۲۲۲۲</a
+                      >
+                    </div>
+                  </li>
+                  <li class="my-2 d-flex flex-md-column flex-lg-row">
+                    <div class="d-flex flex-column align-items-start me-3">
+                      <span class="icon-contact_mail fs-3"></span>
+                      <p class="font06 mb-0">ایمیل</p>
+                    </div>
+                    <a class="footer-link" href="mail:contact@folan.com"
+                      >contact@folan.com</a
+                    >
+                  </li>
+                  <li class="my-2">
+                    <a class="footer-link" href="#">راهنمای سایزبندی</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <p class="pt-2 copy-right">
+            حق کپی © در اختیار
+            <a href="" class="footer-link">فروشگاه فلان</a> می باشد.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer  -->
+
+    <!-- scripts  -->
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/scripts.js"></script>
+  </body>
+</html>

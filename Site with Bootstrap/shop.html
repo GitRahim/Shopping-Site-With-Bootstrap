@@ -1,0 +1,2067 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="CSS/bootstrap.rtl.min.css" />
+    <!-- icomoon icons  -->
+    <link rel="stylesheet" href="CSS/icomoon/style.css" />
+    <!-- my style -->
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>لباسای پسرونه-هودی‌</title>
+  </head>
+
+  <body class="text-bg-dark">
+    <!-- navbar  -->
+    <nav
+      class="navbar navbar-dark bg-dark sticky-top shadow-light"
+      aria-label="Dark offcanvas navbar"
+    >
+      <div class="container-fluid">
+        <!-- navbar-brand  -->
+        <a class="navbar-brand fs-4 hover-pr" href="./index.html"
+          >فروشگاه فلان</a
+        >
+        <!-- account  -->
+        <a href="./log-in.html" class="nav-link hover-pr" title="حساب کاربری"
+          ><span class="icon-user-circle fs-3"></span
+        ></a>
+        <!-- shopping basket  -->
+        <a
+          href="./shopping-basket.html"
+          class="nav-link ms-3 me-auto hover-pr"
+          title="سبد خرید"
+        >
+          <span class="icon-shopping-cart fs-3 position-relative">
+            <span
+              class="position-absolute top-0 start-0 translate-middle badge rounded-pill bg-success font06"
+            >
+              2
+            </span>
+          </span>
+        </a>
+        <!-- search in navbar  -->
+        <form class="d-none d-md-flex ms-auto me-3" role="search">
+          <input
+            class="form-control me-1"
+            type="search"
+            placeholder="جست‌وجو"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-primary" type="submit">🔎</button>
+        </form>
+        <!-- toggle btn  -->
+        <button
+          class="navbar-toggler hover-pr"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbarDark"
+          aria-controls="offcanvasNavbarDark"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- offcanvas  -->
+        <div
+          class="offcanvas offcanvas-end text-bg-dark"
+          tabindex="-1"
+          id="offcanvasNavbarDark"
+          aria-labelledby="offcanvasNavbarDarkLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarDarkLabel">
+              منوی وبسایت
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <!-- boys or girls filter in offcanvas  -->
+            <div
+              class="btn-group w-100 mb-3"
+              role="group"
+              aria-label="Basic radio toggle button group"
+            >
+              <input
+                type="radio"
+                class="btn-check"
+                name="btnradio"
+                id="boys"
+                autocomplete="off"
+              />
+              <label class="btn btn-outline-primary" for="boys">پسرونه</label>
+
+              <input
+                type="radio"
+                class="btn-check"
+                name="btnradio"
+                id="both"
+                autocomplete="off"
+                checked
+              />
+              <label class="btn btn-outline-primary" for="both">هر دو</label>
+
+              <input
+                type="radio"
+                class="btn-check"
+                name="btnradio"
+                id="girls"
+                autocomplete="off"
+              />
+              <label class="btn btn-outline-primary" for="girls">دخترونه</label>
+            </div>
+            <!-- offcanvas ul  -->
+            <ul
+              class="navbar-nav justify-content-end flex-grow-1 pe-3"
+              data-bs-theme="dark"
+            >
+              <li class="nav-item">
+                <a class="nav-link" href="./shop.html">همه‌ی لباسا</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./shop.html">تیشرت</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./shop.html">پیراهن</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./shop.html">بلوز</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./shop.html">هودی</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./shop.html">کاپشن</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  کتونی
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="./shop.html">روزمره</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./shop.html">نیم‌بوت</a>
+                  </li>
+                  <li><a class="dropdown-item" href="./shop.html">بوت</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  اکسسوری
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./shop.html">عینک</a></li>
+                  <li><a class="dropdown-item" href="./shop.html">ساعت</a></li>
+                  <li>
+                    <a class="dropdown-item" href="./shop.html">دستبند</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./shop.html">کیف پول</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./shop.html">کمر بند</a>
+                  </li>
+                  <li><a class="dropdown-item" href="./shop.html">کلاه</a></li>
+                </ul>
+              </li>
+            </ul>
+            <!-- search in offcanvas  -->
+            <form class="d-flex d-md-none mt-3" role="search">
+              <input
+                class="form-control me-1"
+                type="search"
+                placeholder="جست‌وجو"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-primary" type="submit">🔎</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- breadcumb  -->
+    <div class="my-4">
+      <div class="container">
+        <div class="row">
+          <div class="col font09">
+            <a
+              class="text-decoration-none text-white hover-pr"
+              href="index.html"
+              >صفحه‌ی نخست</a
+            >
+            <span class="mx-1">/</span>
+            <a
+              class="text-decoration-none text-white hover-pr"
+              href="./shop.html"
+              >همه‌ی لباسای پسرونه</a
+            >
+            <span class="mx-1">/</span>
+            <strong>هودی</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- products -->
+    <section class="mb-3">
+      <div class="container">
+        <!-- filtering  -->
+        <div class="row mb-3 justify-content-evenly align-items-center g-1">
+          <!-- order filter  -->
+          <div
+            class="col-sm-6 col-md-4 d-flex align-items-center justify-content-md-center"
+          >
+            <div class="d-flex pt-3">
+              <span class="icon-sort-amount-desc pt-1"></span>
+              <p class="ms-1">مرتب‌سازی:</p>
+            </div>
+            <select
+              class="form-select form-select-sm text-bg-primary font08 ms-1"
+              aria-label=".form-select-sm example"
+              style="width: 8rem"
+            >
+              <option selected>پیشفرض</option>
+              <option value="1">ارزان‌ترین</option>
+              <option value="2">گران‌ترین</option>
+              <option value="3">بیشترین‌ امتیاز</option>
+              <option value="4">جدیدترین</option>
+              <option value="5">پرفروش‌ترین</option>
+            </select>
+          </div>
+          <!-- size filter  -->
+          <div
+            class="col-sm-6 col-md-4 d-flex align-items-center justify-content-md-center"
+          >
+            <div class="d-flex pt-3">
+              <span class="icon-arrows-alt pt-1"></span>
+              <p class="ms-1">سایز:</p>
+            </div>
+            <select
+              class="form-select form-select-sm text-bg-primary font08 ms-1"
+              aria-label=".form-select-sm example"
+              style="width: 6rem"
+            >
+              <option selected>همه</option>
+              <option value="1">S</option>
+              <option value="2">M</option>
+              <option value="3">L</option>
+              <option value="4">XL</option>
+              <option value="5">XXL</option>
+            </select>
+          </div>
+          <!-- brand filter  -->
+          <div
+            class="col-sm-6 col-md-4 d-flex align-items-center justify-content-md-center"
+          >
+            <div class="d-flex pt-3">
+              <span class="icon-scissors pt-1"></span>
+              <p class="ms-1">برند:</p>
+            </div>
+            <select
+              class="form-select form-select-sm text-bg-primary font08 ms-1"
+              aria-label=".form-select-sm example"
+              style="width: 8rem"
+            >
+              <option selected>همه</option>
+              <option value="1">آدیداس</option>
+              <option value="2">نایک</option>
+              <option value="3">ورساچه</option>
+              <option value="4">آندر آرمور</option>
+              <option value="5">جک‌اندجونز</option>
+            </select>
+          </div>
+          <!-- color filter   -->
+          <div
+            class="col-sm-6 col-md-12 col-lg-6 d-flex align-items-center justify-content-md-center justify-content-lg-start"
+          >
+            <div class="d-flex pt-4">
+              <span class="icon-palette fs-5"></span>
+              <p class="ms-1">رنگ:</p>
+            </div>
+            <div class="d-flex flex-wrap">
+              <button class="color-btn ms-1 mt-1" id="black"></button>
+              <button class="color-btn ms-1 mt-1" id="white"></button>
+              <button class="color-btn ms-1 mt-1" id="grey"></button>
+              <button class="color-btn ms-1 mt-1" id="browm"></button>
+              <button class="color-btn ms-1 mt-1" id="red"></button>
+              <button class="color-btn ms-1 mt-1" id="green"></button>
+              <button class="color-btn ms-1 mt-1" id="blue"></button>
+              <button class="color-btn ms-1 mt-1" id="yellow"></button>
+              <button class="color-btn ms-1 mt-1" id="purpule"></button>
+              <button class="color-btn ms-1 mt-1" id="orange"></button>
+              <button class="color-btn ms-1 mt-1" id="pink"></button>
+            </div>
+          </div>
+          <!-- price filter  -->
+          <div class="col-md-8 col-lg-6 d-flex align-items-center">
+            <div class="d-flex pt-3">
+              <span class="icon-money pt-1"></span>
+              <p class="ms-1">قیمت:</p>
+            </div>
+            <div class="input-group input-group-sm ms-2">
+              <span class="input-group-text text-bg-dark">از</span>
+              <input
+                type="number"
+                value="0"
+                min="0"
+                max="10000000"
+                class="form-control text-center"
+                step="10000"
+              />
+              <span class="input-group-text text-bg-dark">تا</span>
+              <input
+                type="number"
+                value="10000000"
+                min="0"
+                max="10000000"
+                class="form-control text-center"
+                step="10000"
+              />
+              <span class="input-group-text text-bg-dark">ریال</span>
+            </div>
+          </div>
+        </div>
+        <!-- product cards -->
+        <div
+          class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-xl-5 row-cols-xxl-5 g-4 mb-5"
+        >
+          <div class="col">
+            <div class="card card-off h-100 shadow-light">
+              <img src="img/h1-1.jpg" class="card-img-top" alt="هودی" />
+              <div class="card-body text-center pt-2 pb-1 px-1">
+                <h6 class="card-title">هودی آدیداس کد۱۷</h6>
+                <p class="card-text font09">۷٫۰۰۰٫۰۰۰ ریال</p>
+                <div
+                  class="btn-group mt-1"
+                  role="group"
+                  aria-label="Basic radio toggle button group"
+                >
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h1-1"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h1-1"
+                    >M</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h1-2"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h1-2"
+                    >L</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h1-3"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h1-3"
+                    >XL</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h1-4"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h1-4"
+                    >XXL</label
+                  >
+                </div>
+
+                <div class="input-group my-2 justify-content-center">
+                  <button
+                    class="btn btn-outline-success js-btn-plus btn-sm"
+                    type="button"
+                  >
+                    +
+                  </button>
+                  <input
+                    type="text"
+                    class="form-control text-center n-of-product font07"
+                    value="1"
+                    placeholder=""
+                  />
+                  <button
+                    class="btn btn-outline-danger js-btn-minus btn-sm"
+                    type="button"
+                  >
+                    -
+                  </button>
+                </div>
+
+                <div class="d-block">
+                  <a class="btn btn-success btn-sm mt-1 font07 liveToastBtn"
+                    >افزودن به سبد</a
+                  >
+                  <a
+                    href="./single-product.html"
+                    class="btn btn-primary btn-sm mt-1 font07"
+                    >مشاهده</a
+                  >
+                </div>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between font07 px-3 pb-0"
+              >
+                <div class="d-flex">
+                  <span class="icon-star me-1 color-gold"></span>
+                  <p>۴/۸</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-off h-100 shadow-light">
+              <img src="img/h3.jpg" class="card-img-top" alt="هودی" />
+              <div class="card-body text-center pt-2 pb-1 px-1">
+                <h6 class="card-title">هودی آدیداس کد۱۸</h6>
+                <p class="card-text font09">۷٫۰۰۰٫۰۰۰ ریال</p>
+                <div
+                  class="btn-group mt-1"
+                  role="group"
+                  aria-label="Basic radio toggle button group"
+                >
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h2-1"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h2-1"
+                    >M</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h2-2"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07 disabled"
+                    for="h2-2"
+                    >L</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h2-3"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h2-3"
+                    >XL</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h2-4"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h2-4"
+                    >XXL</label
+                  >
+                </div>
+
+                <div class="input-group my-2 justify-content-center">
+                  <button
+                    class="btn btn-outline-success js-btn-plus btn-sm"
+                    type="button"
+                  >
+                    +
+                  </button>
+                  <input
+                    type="text"
+                    class="form-control text-center n-of-product font07"
+                    value="1"
+                    placeholder=""
+                  />
+                  <button
+                    class="btn btn-outline-danger js-btn-minus btn-sm"
+                    type="button"
+                  >
+                    -
+                  </button>
+                </div>
+
+                <div class="d-block">
+                  <a class="btn btn-success btn-sm mt-1 font07 liveToastBtn"
+                    >افزودن به سبد</a
+                  >
+                  <a
+                    href="./single-product.html"
+                    class="btn btn-primary btn-sm mt-1 font07"
+                    >مشاهده</a
+                  >
+                </div>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between font07 px-3 pb-0"
+              >
+                <div class="d-flex">
+                  <span class="icon-star me-1 color-gold"></span>
+                  <p>۴/۲</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-off h-100 shadow-light">
+              <img src="img/h4.jpg" class="card-img-top" alt="هودی" />
+              <div class="card-body text-center pt-2 pb-1 px-1">
+                <h6 class="card-title">هودی آدیداس کد۱۹</h6>
+                <p class="card-text font09">۷٫۰۰۰٫۰۰۰ ریال</p>
+                <div
+                  class="btn-group mt-1"
+                  role="group"
+                  aria-label="Basic radio toggle button group"
+                >
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h3-1"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h3-1"
+                    >M</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h3-2"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h3-2"
+                    >L</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h3-3"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h3-3"
+                    >XL</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h3-4"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h3-4"
+                    >XXL</label
+                  >
+                </div>
+
+                <div class="input-group my-2 justify-content-center">
+                  <button
+                    class="btn btn-outline-success js-btn-plus btn-sm"
+                    type="button"
+                  >
+                    +
+                  </button>
+                  <input
+                    type="text"
+                    class="form-control text-center n-of-product font07"
+                    value="1"
+                    placeholder=""
+                  />
+                  <button
+                    class="btn btn-outline-danger js-btn-minus btn-sm"
+                    type="button"
+                  >
+                    -
+                  </button>
+                </div>
+
+                <div class="d-block">
+                  <a class="btn btn-success btn-sm mt-1 font07 liveToastBtn"
+                    >افزودن به سبد</a
+                  >
+                  <a
+                    href="./single-product.html"
+                    class="btn btn-primary btn-sm mt-1 font07"
+                    >مشاهده</a
+                  >
+                </div>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between font07 px-3 pb-0"
+              >
+                <div class="d-flex">
+                  <span class="icon-star me-1 color-gold"></span>
+                  <p>۴/۱</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-off h-100 shadow-light">
+              <img src="img/h5.jpg" class="card-img-top" alt="هودی" />
+              <div class="card-body text-center pt-2 pb-1 px-1">
+                <h6 class="card-title">هودی آدیداس کد۲۰</h6>
+                <p class="card-text font09">۷٫۰۰۰٫۰۰۰ ریال</p>
+                <div
+                  class="btn-group mt-1"
+                  role="group"
+                  aria-label="Basic radio toggle button group"
+                >
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h4-1"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h4-1"
+                    >M</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h4-2"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h4-2"
+                    >L</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h4-3"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h4-3"
+                    >XL</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h4-4"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h4-4"
+                    >XXL</label
+                  >
+                </div>
+
+                <div class="input-group my-2 justify-content-center">
+                  <button
+                    class="btn btn-outline-success js-btn-plus btn-sm"
+                    type="button"
+                  >
+                    +
+                  </button>
+                  <input
+                    type="text"
+                    class="form-control text-center n-of-product font07"
+                    value="1"
+                    placeholder=""
+                  />
+                  <button
+                    class="btn btn-outline-danger js-btn-minus btn-sm"
+                    type="button"
+                  >
+                    -
+                  </button>
+                </div>
+
+                <div class="d-block">
+                  <a class="btn btn-success btn-sm mt-1 font07 liveToastBtn"
+                    >افزودن به سبد</a
+                  >
+                  <a
+                    href="./single-product.html"
+                    class="btn btn-primary btn-sm mt-1 font07"
+                    >مشاهده</a
+                  >
+                </div>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between font07 px-3 pb-0"
+              >
+                <div class="d-flex">
+                  <span class="icon-star me-1 color-gold"></span>
+                  <p>۵/۰</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-off h-100 shadow-light">
+              <img src="img/h6.jpg" class="card-img-top" alt="هودی" />
+              <div class="card-body text-center pt-2 pb-1 px-1">
+                <h6 class="card-title">هودی آدیداس کد۲۱</h6>
+                <p class="card-text font09">۷٫۰۰۰٫۰۰۰ ریال</p>
+                <div
+                  class="btn-group mt-1"
+                  role="group"
+                  aria-label="Basic radio toggle button group"
+                >
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h5-1"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h5-1"
+                    >M</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h5-2"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h5-2"
+                    >L</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h5-3"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h5-3"
+                    >XL</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h5-4"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h5-4"
+                    >XXL</label
+                  >
+                </div>
+
+                <div class="input-group my-2 justify-content-center">
+                  <button
+                    class="btn btn-outline-success js-btn-plus btn-sm"
+                    type="button"
+                  >
+                    +
+                  </button>
+                  <input
+                    type="text"
+                    class="form-control text-center n-of-product font07"
+                    value="1"
+                    placeholder=""
+                  />
+                  <button
+                    class="btn btn-outline-danger js-btn-minus btn-sm"
+                    type="button"
+                  >
+                    -
+                  </button>
+                </div>
+
+                <div class="d-block">
+                  <a class="btn btn-success btn-sm mt-1 font07 liveToastBtn"
+                    >افزودن به سبد</a
+                  >
+                  <a
+                    href="./single-product.html"
+                    class="btn btn-primary btn-sm mt-1 font07"
+                    >مشاهده</a
+                  >
+                </div>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between font07 px-3 pb-0"
+              >
+                <div class="d-flex">
+                  <span class="icon-star me-1 color-gold"></span>
+                  <p>۴/۸</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-off h-100 shadow-light">
+              <img src="img/h7.jpg" class="card-img-top" alt="هودی" />
+              <div class="card-body text-center pt-2 pb-1 px-1">
+                <h6 class="card-title">هودی آدیداس کد۲۲</h6>
+                <p class="card-text font09">۷٫۰۰۰٫۰۰۰ ریال</p>
+                <div
+                  class="btn-group mt-1"
+                  role="group"
+                  aria-label="Basic radio toggle button group"
+                >
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h6-1"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h6-1"
+                    >M</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h6-2"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h6-2"
+                    >L</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h6-3"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h6-3"
+                    >XL</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h6-4"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h6-4"
+                    >XXL</label
+                  >
+                </div>
+
+                <div class="input-group my-2 justify-content-center">
+                  <button
+                    class="btn btn-outline-success js-btn-plus btn-sm"
+                    type="button"
+                  >
+                    +
+                  </button>
+                  <input
+                    type="text"
+                    class="form-control text-center n-of-product font07"
+                    value="1"
+                    placeholder=""
+                  />
+                  <button
+                    class="btn btn-outline-danger js-btn-minus btn-sm"
+                    type="button"
+                  >
+                    -
+                  </button>
+                </div>
+
+                <div class="d-block">
+                  <a class="btn btn-success btn-sm mt-1 font07 liveToastBtn"
+                    >افزودن به سبد</a
+                  >
+                  <a
+                    href="./single-product.html"
+                    class="btn btn-primary btn-sm mt-1 font07"
+                    >مشاهده</a
+                  >
+                </div>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between font07 px-3 pb-0"
+              >
+                <div class="d-flex">
+                  <span class="icon-star me-1 color-gold"></span>
+                  <p>۴/۳</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-off h-100 shadow-light">
+              <img src="img/h8.jpg" class="card-img-top" alt="هودی" />
+              <div class="card-body text-center pt-2 pb-1 px-1">
+                <h6 class="card-title">هودی آدیداس کد۲۳</h6>
+                <p class="card-text font09">۷٫۰۰۰٫۰۰۰ ریال</p>
+                <div
+                  class="btn-group mt-1"
+                  role="group"
+                  aria-label="Basic radio toggle button group"
+                >
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h7-1"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h7-1"
+                    >M</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h7-2"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h7-2"
+                    >L</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h7-3"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h7-3"
+                    >XL</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h7-4"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h7-4"
+                    >XXL</label
+                  >
+                </div>
+
+                <div class="input-group my-2 justify-content-center">
+                  <button
+                    class="btn btn-outline-success js-btn-plus btn-sm"
+                    type="button"
+                  >
+                    +
+                  </button>
+                  <input
+                    type="text"
+                    class="form-control text-center n-of-product font07"
+                    value="1"
+                    placeholder=""
+                  />
+                  <button
+                    class="btn btn-outline-danger js-btn-minus btn-sm"
+                    type="button"
+                  >
+                    -
+                  </button>
+                </div>
+
+                <div class="d-block">
+                  <a class="btn btn-success btn-sm mt-1 font07 liveToastBtn"
+                    >افزودن به سبد</a
+                  >
+                  <a
+                    href="./single-product.html"
+                    class="btn btn-primary btn-sm mt-1 font07"
+                    >مشاهده</a
+                  >
+                </div>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between font07 px-3 pb-0"
+              >
+                <div class="d-flex">
+                  <span class="icon-star me-1 color-gold"></span>
+                  <p>۴/۹</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-off h-100 shadow-light">
+              <img src="img/h2.jpg" class="card-img-top" alt="هودی" />
+              <div class="card-body text-center pt-2 pb-1 px-1">
+                <h6 class="card-title">هودی کد۲۵</h6>
+                <p class="card-text font09">
+                  <del class="font07">۴٫۰۰۰٫۰۰۰ ریال</del> - ۳٫۵۰۰٫۰۰۰ ریال
+                </p>
+                <div
+                  class="btn-group mt-1"
+                  role="group"
+                  aria-label="Basic radio toggle button group"
+                >
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="c1-1"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="c1-1"
+                    >M</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="c1-2"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="c1-2"
+                    >L</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="c1-3"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07 disabled"
+                    for="c1-3"
+                    >XL</label
+                  >
+                </div>
+
+                <div class="input-group my-2 justify-content-center">
+                  <button
+                    class="btn btn-outline-success js-btn-plus btn-sm"
+                    type="button"
+                  >
+                    +
+                  </button>
+                  <input
+                    type="text"
+                    class="form-control text-center n-of-product font07"
+                    value="1"
+                    placeholder=""
+                  />
+                  <button
+                    class="btn btn-outline-danger js-btn-minus btn-sm"
+                    type="button"
+                  >
+                    -
+                  </button>
+                </div>
+
+                <div class="d-block">
+                  <a class="btn btn-success btn-sm mt-1 font07 liveToastBtn"
+                    >افزودن به سبد</a
+                  >
+                  <a
+                    href="./single-product.html"
+                    class="btn btn-primary btn-sm mt-1 font07"
+                    >مشاهده</a
+                  >
+                </div>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between font07 px-3 pb-0"
+              >
+                <div class="d-flex">
+                  <span class="icon-star me-1 color-gold"></span>
+                  <p>۴/۵</p>
+                </div>
+                <p class="color-gold">تخفیفی</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-off h-100 shadow-light">
+              <img src="img/h9.jpg" class="card-img-top" alt="هودی" />
+              <div class="card-body text-center pt-2 pb-1 px-1">
+                <h6 class="card-title">هودی نایک کد۹</h6>
+                <p class="card-text font09">۶٫۵۰۰٫۰۰۰ ریال</p>
+                <div
+                  class="btn-group mt-1"
+                  role="group"
+                  aria-label="Basic radio toggle button group"
+                >
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h9-1"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h9-1"
+                    >M</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h9-2"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h9-2"
+                    >L</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h9-3"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h9-3"
+                    >XL</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h9-4"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h9-4"
+                    >XXL</label
+                  >
+                </div>
+
+                <div class="input-group my-2 justify-content-center">
+                  <button
+                    class="btn btn-outline-success js-btn-plus btn-sm"
+                    type="button"
+                  >
+                    +
+                  </button>
+                  <input
+                    type="text"
+                    class="form-control text-center n-of-product font07"
+                    value="1"
+                    placeholder=""
+                  />
+                  <button
+                    class="btn btn-outline-danger js-btn-minus btn-sm"
+                    type="button"
+                  >
+                    -
+                  </button>
+                </div>
+
+                <div class="d-block">
+                  <a class="btn btn-success btn-sm mt-1 font07 liveToastBtn"
+                    >افزودن به سبد</a
+                  >
+                  <a
+                    href="./single-product.html"
+                    class="btn btn-primary btn-sm mt-1 font07"
+                    >مشاهده</a
+                  >
+                </div>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between font07 px-3 pb-0"
+              >
+                <div class="d-flex">
+                  <span class="icon-star me-1 color-gold"></span>
+                  <p>۳/۹</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-off h-100 shadow-light">
+              <img src="img/h10.jpg" class="card-img-top" alt="هودی" />
+              <div class="card-body text-center pt-2 pb-1 px-1">
+                <h6 class="card-title">هودی نایک کد۱۰</h6>
+                <p class="card-text font09">۶٫۵۰۰٫۰۰۰ ریال</p>
+                <div
+                  class="btn-group mt-1"
+                  role="group"
+                  aria-label="Basic radio toggle button group"
+                >
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h10-1"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h10-1"
+                    >M</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h10-2"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h10-2"
+                    >L</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h10-3"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h10-3"
+                    >XL</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h10-4"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h10-4"
+                    >XXL</label
+                  >
+                </div>
+
+                <div class="input-group my-2 justify-content-center">
+                  <button
+                    class="btn btn-outline-success js-btn-plus btn-sm"
+                    type="button"
+                  >
+                    +
+                  </button>
+                  <input
+                    type="text"
+                    class="form-control text-center n-of-product font07"
+                    value="1"
+                    placeholder=""
+                  />
+                  <button
+                    class="btn btn-outline-danger js-btn-minus btn-sm"
+                    type="button"
+                  >
+                    -
+                  </button>
+                </div>
+
+                <div class="d-block">
+                  <a class="btn btn-success btn-sm mt-1 font07 liveToastBtn"
+                    >افزودن به سبد</a
+                  >
+                  <a
+                    href="./single-product.html"
+                    class="btn btn-primary btn-sm mt-1 font07"
+                    >مشاهده</a
+                  >
+                </div>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between font07 px-3 pb-0"
+              >
+                <div class="d-flex">
+                  <span class="icon-star me-1 color-gold"></span>
+                  <p>۳/۸</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-off h-100 shadow-light">
+              <img src="img/h11.jpg" class="card-img-top" alt="هودی" />
+              <div class="card-body text-center pt-2 pb-1 px-1">
+                <h6 class="card-title">هودی نایک کد۱۱</h6>
+                <p class="card-text font09">۶٫۵۰۰٫۰۰۰ ریال</p>
+                <div
+                  class="btn-group mt-1"
+                  role="group"
+                  aria-label="Basic radio toggle button group"
+                >
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h11-1"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h11-1"
+                    >M</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h11-2"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h11-2"
+                    >L</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h11-3"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h11-3"
+                    >XL</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h11-4"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h11-4"
+                    >XXL</label
+                  >
+                </div>
+
+                <div class="input-group my-2 justify-content-center">
+                  <button
+                    class="btn btn-outline-success js-btn-plus btn-sm"
+                    type="button"
+                  >
+                    +
+                  </button>
+                  <input
+                    type="text"
+                    class="form-control text-center n-of-product font07"
+                    value="1"
+                    placeholder=""
+                  />
+                  <button
+                    class="btn btn-outline-danger js-btn-minus btn-sm"
+                    type="button"
+                  >
+                    -
+                  </button>
+                </div>
+
+                <div class="d-block">
+                  <a class="btn btn-success btn-sm mt-1 font07 liveToastBtn"
+                    >افزودن به سبد</a
+                  >
+                  <a
+                    href="./single-product.html"
+                    class="btn btn-primary btn-sm mt-1 font07"
+                    >مشاهده</a
+                  >
+                </div>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between font07 px-3 pb-0"
+              >
+                <div class="d-flex">
+                  <span class="icon-star me-1 color-gold"></span>
+                  <p>۴/۰</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-off h-100 shadow-light">
+              <img src="img/h12.jpg" class="card-img-top" alt="هودی" />
+              <div class="card-body text-center pt-2 pb-1 px-1">
+                <h6 class="card-title">هودی کد۶</h6>
+                <p class="card-text font09">۳٫۵۰۰٫۰۰۰ ریال</p>
+                <div
+                  class="btn-group mt-1"
+                  role="group"
+                  aria-label="Basic radio toggle button group"
+                >
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h12-1"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h12-1"
+                    >M</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h12-2"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07 disabled"
+                    for="h12-2"
+                    >L</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h12-3"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07 disabled"
+                    for="h12-3"
+                    >XL</label
+                  >
+                </div>
+
+                <div class="input-group my-2 justify-content-center">
+                  <button
+                    class="btn btn-outline-success js-btn-plus btn-sm"
+                    type="button"
+                  >
+                    +
+                  </button>
+                  <input
+                    type="text"
+                    class="form-control text-center n-of-product font07"
+                    value="1"
+                    placeholder=""
+                  />
+                  <button
+                    class="btn btn-outline-danger js-btn-minus btn-sm"
+                    type="button"
+                  >
+                    -
+                  </button>
+                </div>
+
+                <div class="d-block">
+                  <a class="btn btn-success btn-sm mt-1 font07 liveToastBtn"
+                    >افزودن به سبد</a
+                  >
+                  <a
+                    href="./single-product.html"
+                    class="btn btn-primary btn-sm mt-1 font07"
+                    >مشاهده</a
+                  >
+                </div>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between font07 px-3 pb-0"
+              >
+                <div class="d-flex">
+                  <span class="icon-star me-1 color-gold"></span>
+                  <p>۳/۵</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-off h-100 shadow-light">
+              <img src="img/h13.jpg" class="card-img-top" alt="هودی" />
+              <div class="card-body text-center pt-2 pb-1 px-1">
+                <h6 class="card-title">هودی کد۷</h6>
+                <p class="card-text font09">۳٫۵۰۰٫۰۰۰ ریال</p>
+                <div
+                  class="btn-group mt-1"
+                  role="group"
+                  aria-label="Basic radio toggle button group"
+                >
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h13-1"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h13-1"
+                    >M</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h13-2"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07 disabled"
+                    for="h13-2"
+                    >L</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h13-3"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07 disabled"
+                    for="h13-3"
+                    >XL</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h13-4"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h13-4"
+                    >XL</label
+                  >
+                </div>
+
+                <div class="input-group my-2 justify-content-center">
+                  <button
+                    class="btn btn-outline-success js-btn-plus btn-sm"
+                    type="button"
+                  >
+                    +
+                  </button>
+                  <input
+                    type="text"
+                    class="form-control text-center n-of-product font07"
+                    value="1"
+                    placeholder=""
+                  />
+                  <button
+                    class="btn btn-outline-danger js-btn-minus btn-sm"
+                    type="button"
+                  >
+                    -
+                  </button>
+                </div>
+
+                <div class="d-block">
+                  <a class="btn btn-success btn-sm mt-1 font07 liveToastBtn"
+                    >افزودن به سبد</a
+                  >
+                  <a
+                    href="./single-product.html"
+                    class="btn btn-primary btn-sm mt-1 font07"
+                    >مشاهده</a
+                  >
+                </div>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between font07 px-3 pb-0"
+              >
+                <div class="d-flex">
+                  <span class="icon-star me-1 color-gold"></span>
+                  <p>۳/۴</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-off h-100 shadow-light">
+              <img src="img/h14.jpg" class="card-img-top" alt="هودی" />
+              <div class="card-body text-center pt-2 pb-1 px-1">
+                <h6 class="card-title">هودی کد۵۰</h6>
+                <p class="card-text font09">۴٫۵۰۰٫۰۰۰ ریال</p>
+                <div
+                  class="btn-group mt-1"
+                  role="group"
+                  aria-label="Basic radio toggle button group"
+                >
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h14-2"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h14-2"
+                    >L</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h14-3"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h14-3"
+                    >XL</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="h14-4"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-primary btn-sm font07"
+                    for="h14-4"
+                    >XL</label
+                  >
+                </div>
+
+                <div class="input-group my-2 justify-content-center">
+                  <button
+                    class="btn btn-outline-success js-btn-plus btn-sm"
+                    type="button"
+                  >
+                    +
+                  </button>
+                  <input
+                    type="text"
+                    class="form-control text-center n-of-product font07"
+                    value="1"
+                    placeholder=""
+                  />
+                  <button
+                    class="btn btn-outline-danger js-btn-minus btn-sm"
+                    type="button"
+                  >
+                    -
+                  </button>
+                </div>
+
+                <div class="d-block">
+                  <a class="btn btn-success btn-sm mt-1 font07 liveToastBtn"
+                    >افزودن به سبد</a
+                  >
+                  <a
+                    href="./single-product.html"
+                    class="btn btn-primary btn-sm mt-1 font07"
+                    >مشاهده</a
+                  >
+                </div>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between font07 px-3 pb-0"
+              >
+                <div class="d-flex">
+                  <span class="icon-star me-1 color-gold"></span>
+                  <p>۵/۰</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- pagination  -->
+        <div class="row">
+          <div class="col d-flex justify-content-center">
+            <nav>
+              <ul class="pagination">
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                  </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item">
+                  <a class="page-link active" href="#">1</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- wave  -->
+    <div style="height: 5rem; overflow: hidden">
+      <svg
+        viewBox="0 0 500 150"
+        preserveAspectRatio="none"
+        style="height: 100%; width: 100%"
+      >
+        <path
+          d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+          style="stroke: none; fill: #1b2a4e"
+        ></path>
+      </svg>
+    </div>
+    <!-- our services  -->
+    <section class="bg-sp pb-4">
+      <div class="container">
+        <!-- header of this section  -->
+        <div class="row mb-3 text-center">
+          <h2>خیالت با خرید از ما راحت باشه!</h2>
+        </div>
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-4">
+          <div class="col text-center">
+            <span class="icon-certificate mb-3 fs-1 shadow-gold"></span>
+            <p class="mb-0">دارای تمامی مجوزهای فروش آنلاین</p>
+            <a href="" class="text-white hover-pr font09">دیدن شرایط</a>
+          </div>
+          <div class="col text-center">
+            <span class="icon-undo mb-3 fs-1 shadow-gold"></span>
+            <p class="mb-0">ضمانت بازپسگیری کالاها</p>
+            <a href="" class="text-white hover-pr font09">دیدن مجوزها</a>
+          </div>
+          <div class="col text-center">
+            <span class="icon-money mb-3 fs-1 shadow-gold"></span>
+            <p>ارسال رایگان برای خرید بالای ۶٫۰۰۰٫۰۰۰ ریال</p>
+          </div>
+          <div class="col text-center">
+            <span class="icon-local_shipping mb-3 fs-1 shadow-gold"></span>
+            <p>ارسال در سریع‌ترین زمان</p>
+          </div>
+          <div class="col text-center">
+            <span class="icon-credit-card-alt mb-3 fs-2 shadow-gold"></span>
+            <p>درگاه پرداخت امن</p>
+          </div>
+          <div class="col text-center">
+            <span class="icon-loyalty mb-3 fs-1 shadow-gold"></span>
+            <p>لباسای اصل و باکیفیت</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- wave  -->
+    <div style="height: 5rem; overflow: hidden">
+      <svg
+        viewBox="0 0 500 150"
+        preserveAspectRatio="none"
+        style="height: 100%; width: 100%"
+      >
+        <path
+          d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z"
+          style="stroke: none; fill: #1b2a4e"
+        ></path>
+      </svg>
+    </div>
+    <!-- footer  -->
+    <footer>
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-md-4 text-center">
+            <h3 class="fw-bold">فروشگاه فلان</h3>
+            <p>
+              می‌تونید از طریق شبکه‌های اجتماعی زیر هم با ما در ارتباط باشید.
+            </p>
+            <div class="d-flex justify-content-around">
+              <a href="" class="footer-link" title="اینستاگرام"
+                ><span class="icon-instagram fs-2"></span
+              ></a>
+              <a href="" class="footer-link" title="تلگرام"
+                ><span class="icon-telegram fs-2"></span
+              ></a>
+              <a href="" class="footer-link" title="واتس‌اپ"
+                ><span class="icon-whatsapp fs-2"></span
+              ></a>
+              <a href="" class="footer-link" title="توییتر"
+                ><span class="icon-twitter fs-2"></span
+              ></a>
+            </div>
+            <div class="input-group mt-3">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="ایمیل شما"
+                aria-label="ایمیل شما"
+                aria-describedby="button-addon2"
+              />
+              <button
+                class="btn btn-outline-primary btn-sm"
+                type="button"
+                id="button-addon2"
+              >
+                عضویت در خبرنامه
+              </button>
+            </div>
+          </div>
+          <div class="col-md-7 offset-md-1">
+            <div class="row g-4">
+              <div class="col-md-4">
+                <h6 class="fw-bold footer-header w-75">مجوزهای ما</h6>
+                <ul class="list-unstyled d-flex flex-md-column">
+                  <li class="mt-2">
+                    <a class="footer-link" href="#">
+                      <img
+                        src="img/eNamad.jpg"
+                        class="img-fluid rounded"
+                        style="max-height: 5rem"
+                        alt="نماد اعتماد الکترونیکی"
+                        title="نماد اعتماد الکترونیکی"
+                      />
+                    </a>
+                  </li>
+                  <li class="mt-2 ms-3 ms-md-0">
+                    <a class="footer-link" href="#">
+                      <img
+                        src="img/Samandehi.png"
+                        class="img-fluid rounded"
+                        style="max-height: 5rem"
+                        alt="نماد ساماندهی"
+                        title="نماد ساماندهی"
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <h6 class="fw-bold footer-header w-75">خدمات</h6>
+                <ul class="list-unstyled">
+                  <li class="my-2">
+                    <a class="footer-link" href="#">سوالات متداول</a>
+                  </li>
+                  <li class="my-2">
+                    <a class="footer-link" href="#">شرایط بازپسگیری کالا</a>
+                  </li>
+                  <li class="my-2">
+                    <a class="footer-link" href="#">تحوه‌ی ارسال و بسته بندی</a>
+                  </li>
+                  <li class="my-2">
+                    <a class="footer-link" href="#">حریم شخصی</a>
+                  </li>
+                  <li class="my-2">
+                    <a class="footer-link" href="#">گزارش مشکل</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <h6 class="fw-bold footer-header w-75">پشتیبانی</h6>
+                <ul class="list-unstyled">
+                  <li class="my-2 d-flex flex-md-column flex-lg-row">
+                    <div class="d-flex flex-column align-items-start">
+                      <span class="icon-contact_phone fs-3"></span>
+                      <p class="font06">تماس و پیام</p>
+                    </div>
+                    <div class="d-flex flex-column">
+                      <a class="footer-link text-end" href="tel:+989383333333"
+                        >۰۹۳۸۳۳۳۳۳۳۳</a
+                      >
+                      <a class="footer-link text-end" href="tel:+989382222222"
+                        >۰۹۳۸۲۲۲۲۲۲۲</a
+                      >
+                    </div>
+                  </li>
+                  <li class="my-2 d-flex flex-md-column flex-lg-row">
+                    <div class="d-flex flex-column align-items-start me-3">
+                      <span class="icon-contact_mail fs-3"></span>
+                      <p class="font06 mb-0">ایمیل</p>
+                    </div>
+                    <a class="footer-link" href="mail:contact@folan.com"
+                      >contact@folan.com</a
+                    >
+                  </li>
+                  <li class="my-2">
+                    <a class="footer-link" href="#">راهنمای سایزبندی</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <p class="pt-2 copy-right">
+            حق کپی © در اختیار
+            <a href="" class="footer-link">فروشگاه فلان</a> می باشد.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- notification toast  -->
+    <div
+      class="toast-container position-fixed bottom-0 start-0 p-1 d-none d-sm-inline"
+    >
+      <div
+        id="liveToast"
+        class="toast text-bg-secondary"
+        role="alert"
+        aria-live="assertive"
+        aria-atomic="true"
+      >
+        <div
+          class="toast-body d-flex justify-content-between align-items-center"
+        >
+          <p class="font07 fw-bold mb-0">محصول ایکس به سبد اضافه شد.</p>
+          <div>
+            <a
+              href="./shopping-basket.html"
+              type="button"
+              class="btn btn-primary btn-sm font07"
+              >مشاهده‌ی سبد</a
+            >
+            <button
+              type="button"
+              class="btn btn-dark btn-sm font07"
+              data-bs-dismiss="toast"
+            >
+              بستن
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- scripts  -->
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/scripts.js"></script>
+  </body>
+</html>
